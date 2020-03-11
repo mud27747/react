@@ -1,15 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Header from './header'
-import Clock from './Clock'
+import Todo from "./todo"
  
 
 function App () { 
   return (
     <div>
     <Header title="My website header"/>
-    <Clock/>
+   <Todo/>
   </div>
   )
 }
